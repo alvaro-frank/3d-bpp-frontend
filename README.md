@@ -8,24 +8,24 @@ An interactive and high-performance frontend for the 3D Bin Packing optimization
 
 ## 📂 Project Structure
 ```text
-├── public/                 # Static assets (Favicon, icons)
+├── public/                         # Static assets (Favicon, icons)
 ├── src/
-│   ├── assets/             # Images and global UI assets
-│   ├── components/         # Reusable UI components
-│   │   ├── PackingForm.tsx # Form for manual box entry and auto-generation
-│   │   └── PackingVisualizer.tsx # 3D Canvas rendering the packed boxes
-│   ├── hooks/              # Custom React hooks
-│   │   └── usePacking.ts   # Manages state and side-effects for API calls
-│   ├── services/           # External API integrations
-│   │   └── api.ts          # Fetch requests to the FastAPI backend
-│   ├── types/              # TypeScript interfaces and DTOs
-│   │   └── index.ts        # Type definitions for Containers, Boxes, and Responses
-│   ├── App.tsx             # Main application layout and state orchestration
-│   ├── main.tsx            # React application entry point
-│   └── index.css           # Global CSS and CSS variables
-├── package.json            # Project dependencies and npm scripts
-├── tsconfig.json           # TypeScript configuration
-└── vite.config.ts          # Vite configuration and backend API proxying
+│   ├── assets/                     # Images and global UI assets
+│   ├── components/                 # Reusable UI components
+│   │   ├── PackingForm.tsx         # Form for manual box entry and auto-generation
+│   │   └── PackingVisualizer.tsx   # 3D Canvas rendering the packed boxes
+│   ├── hooks/                      # Custom React hooks
+│   │   └── usePacking.ts           # Manages state and side-effects for API calls
+│   ├── services/                   # External API integrations
+│   │   └── api.ts                  # Fetch requests to the FastAPI backend
+│   ├── types/                      # TypeScript interfaces and DTOs
+│   │   └── index.ts                # Type definitions for Containers, Boxes, and Responses
+│   ├── App.tsx                     # Main application layout and state orchestration
+│   ├── main.tsx                    # React application entry point
+│   └── index.css                   # Global CSS and CSS variables
+├── package.json                    # Project dependencies and npm scripts
+├── tsconfig.json                   # TypeScript configuration
+└── vite.config.ts                  # Vite configuration and backend API proxying
 ```
 
 ## 🛠️ Setup & Requirements
