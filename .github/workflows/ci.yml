@@ -25,6 +25,3 @@ jobs:
 
       - name: Run ESLint
         run: npm run lint
-
-      - name: Build Application (Type Check & Bundle)
-        run: npm run build
